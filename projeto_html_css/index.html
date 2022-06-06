@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Projeto HTML/CSS</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css" type="text/css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <!-- inicio da página-->
+            <div id="container">
+                <!-- inicio cabeçalho da pagina-->
+                <header id="cabecalho-container">  
+                     <!-- inicio menu da pagina-->
+                    <nav id="menu">
+                        <ul>
+                            <li><a href=index.html>Home</a></li>
+                            <li><a href="#">Galeria</a></li>
+                            <li><a href="#">Multimídia</a></li>
+                            <li><a href="#">Contato</a></li>
+                        </ul>
+                    </nav> 
+                </header>
+                 <!--banner e titulo da página-->
+                <div class="container-banner">
+                    <div class="title-pagina">
+                        <h1>Carros Elétricos</h1>
+                        <img src="_img/car.jpg" alt="logo">
+                    </div>
+                </div>
+                 
+                <div id="container-principal">
+                    <!--section da página-->
+                    <section class="container-corpo">
+                        <article class="artigo-principal">
+                            <div class="subtitulo-pagina">
+                                <h1>Baterias de estado sólido</h1>
+                            </div>
+                            <h2>Saiba mais sobre o SSB</h2>
+                            <p>Não há nada novo nas baterias de estado sólido (SSBs), elas são até mais simples que as atuais células. Mesmo assim, todas as grandes fabricantes vêm se aplicando para introduzi-las em seus portfólio por volta de 2025. O motivo dessa corrida silenciosa é o fato de as SSBs superarem em tudo as atuais baterias de íons de lítio e entregam mais autonomia, menos tempo de recarga e mais segurança “simplesmente” mudando o eletrólito, que conduz a eletricidade dentro da célula energética.</p>
+                            <figure>
+                                <img src="_img/comparacao.png" alt="Comparação das baterias" title="A evolução das baterias dos carros elétricos"/>
+                                <figcaption>A evolução das baterias dos carros elétricos</figcaption>                            
+                            </figure>
+
+                            <p>Nas SSBs ele é sólido (normalmente de vidro ou cerâmica), substituindo as soluções tóxicas, inflamáveis e suscetíveis a vazamento atuais. Além de mais seguras, elas são muito mais densas, tanto por serem mais moldáveis quanto pelo fato de a placa negativa (ânodo) desaparecer à medida que o carro descarrega. Sem líquidos ou metais pesados, o descarte após o fim da vida útil (estendida mas não infinita) também é muito mais tranquilo. </p>   
+                            <p>Na nova tecnologia o lítio segue protagonista, fluindo entre os polos da célula. A diferença é que usa-se lítio metálico, sólido e atóxico. Ele também atua como a placa negativa (ânodo) e crescendo à medida que a bateria é carregada. Desse modo, ocupa-se menos espaço e pode-se usar compartimentos</p>
+                        </article>
+                    </section>
+
+                    <section class="container-corpo">
+                        <article class="artigo-principal">
+                            <h2>Previsão das montadoras para SSB</h2>
+
+                            <p>Todos têm um “road map” e um calendário para a utilização destas baterias. Os mais agressivos são os japoneses da Nio que vão ter baterias de estado sólido já em 2022.</p>
+                            <figure>
+                                <img src="_img/calend.png" alt="Previsão para lançamento da SSB" title="Datas anunciadas para usar baterias de estado sólido">
+                                <figcaption>Datas anunciadas para usar baterias de estado sólido</figcaption>
+                            </figure>
+                            <p>A Toyota e a Volkswagen investiram nesta tecnologia e anunciaram que em 2025 os seus carros já terão estas baterias.</p>
+                            <div class="video">
+                                <video class="filme" controls="controls">
+                                    <source src="_video/bateria.mp4" type="video/mp4">
+                                    Deculpe, mas não foi possível carregar o vídeo.
+                                </video>
+                            </div>
+
+                        </article>
+                    </section>
+                <!--aside da página-->
+                    <aside class="outras-noticias">
+                        <div class="subtitulo-pagina">
+                            <h1>Outras noticias</h1>
+                        </div>
+                        <h2>Toyota vai gastar US$ 13 bilhões com nova bateria de carros elétricos</h2>
+                        <div class="video">
+                            <video class="filme" controls="controls">
+                                <source src="_video/toyota.mp4" type="video/mp4">
+                                Deculpe, mas não foi possível carregar o vídeo.
+                            </video>
+                        </div>
+                        
+                        <p>No último mês a Toyota afirmou que planeja apresentar o primeiro modelo elétrico com baterias de estado sólido, ainda este ano. O veículo contará com uma autonomia de 500 km e uma recarga ultra rápida, que pode ser carregado em questões de minutos.
+                            A chegada deste novo veículo pode dar ao Japão espaço para ganhar contra a China no mercado, que é um dos maiores produtores de baterias de íon lítio. Além disso, o país também poderia se tornar essencial para o fornecimento do componente.</p>
+
+                    </aside>
+
+                    <aside class="outras-noticias">
+                        <div class="subtitulo-pagina">
+                            <h2>Volkswagen surpreende e promete bateria de estado sólido para 2025</h2>
+                        </div>
+
+                        <figure>
+                            <img src="_img/modelo_vw.jpg">
+                            <figcaption>VW prevê baterias de estado sólido chegando ao mercado nos próximos anos</figcaption>
+                        </figure>
+
+                        <p>A bateria de estado sólido para carros elétricos está cada vez mais próxima da realidade. A Volkswagen e sua parceira, a QuantumScape, anunciaram um novo acordo para selecionar o local de produção e iniciar a linha de montagem das células mais eficientes até o fim deste ano. 
+
+                            Entre os locais cotados para a nova fábrica de baterias estaria Salzgitter, na Alemanha, cidade onde a Volkswagen já possui uma fábrica. Vale lembrar que a QuantumScape recebeu recentemente um empréstimo de mais 100 milhões de euros da montadora alemã para construir um laboratório e um centro de pesquisa no país. </p>
+                    </aside>
+                </div>
+                 <!--rodapé da página-->
+                <footer id="rodape">
+                    <div id="fonte">
+                        <h3>Fontes de pesquisa</h3>
+                        <p></p>
+                        <ul>
+                            <li><a href="https://bityli.com/AQMoV" target="_blank">https://bityli.com/AQMoV</a></li>
+                            <li><a href="https://bityli.com/EXGFO" target="_blank">https://bityli.com/EXGFO</a></li>
+                            <li><a href="https://bityli.com/senxX" target="_blank">https://bityli.com/senxX</a></li>
+                            <li><a href="https://bityli.com/teAwI" target="_blank">https://bityli.com/teAwI</a></li>
+                            <li><a href="https://bityli.com/EXGFO" target="_blank">https://bityli.com/EXGFO</a></li>
+                            <li><a href="https://bityli.com/GjLes" target="_blank">https://bityli.com/GjLes</a></li>
+                        </ul>
+                        
+                    </div>
+                </footer>
+            </div>
+            <!-- fim da da página-->
+        </main>
+    </body>
+</html>
