@@ -1,0 +1,168 @@
+/*aqui estamos importando o framework da materializecss*/
+@import "https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css";
+
+/*css layout da tela de login e cadastro*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-color: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin:auto;
+    max-width: 600px;  
+    
+}
+
+.card {
+    padding: 30px;
+    border-radius: 4%;
+    box-shadow: rgba(0, 0, 0, 0.80) 0px 22px 70px 4px;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7B68EE;
+    font-size: 40px;
+}
+/*fim css layout*/
+/*css label e input*/
+label{
+    color:#7B68EE;
+    font-size: 15px;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 1px solid #000;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 16px;
+    transition: all .3s ease-out;
+}
+
+.label-float {
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus {
+    border-bottom: 2px solid #4038a0;
+}
+
+.label-float label {
+    color: #272262;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-in-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: #4038a0;
+}
+/*css botão entrar e cadastrar*/
+button {
+    background-color: transparent;
+    border-color: #7B68EE;
+    padding: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    color: #7B68EE;
+}
+
+button:hover {
+    background-color: #7B68EE;
+    color: #fff;
+    transition: all .5s ease-out;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+.justify-end {
+    display: flex;
+    justify-content: flex-end;
+}
+
+hr {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 60%;
+}
+
+p{
+    color: #7B68EE;
+    font-size: 14px;
+    text-align: center;
+}
+
+a {
+    color: #7a3077;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #7B68EE;
+    transition: all .3s ease-out;
+}  
+/*css mensagem erro e sucesso*/
+#msgError{
+    text-align: center;
+    color:#ff0000;
+    background-color: #ffbbbb;
+    padding:10px;
+    border-radius:4px;
+    display:none;    
+}
+
+#msgSuccess{
+    text-align: center;
+    color:#00bb00;
+    background-color: #bbffbe;
+    padding:10px;
+    border-radius:4px;
+    display:none;
+    
+}
+/*css botão*/
+#logoff{
+    margin-top: 250px; 
+}
+
+#logoff i{  
+  
+   background-color: #7B68EE; 
+   margin: 10px;
+ }
+ 

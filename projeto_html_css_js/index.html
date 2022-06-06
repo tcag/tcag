@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tela de login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-cadastro-login.css">
+    </head>
+     <!-- Tela de login  -->
+    <body>
+        <div class="container">
+            <!-- Criamos uma div com a class card para criar a tela de login a mesma usada para cadastro-->        
+            <div class="card">
+
+                <h1>Faça seu login</h1>
+                <!-- inicia formulario para digitar o usaário de senha para login -->
+                <div id="msgError"></div>
+
+                <div class="label-float">
+                    <input type="text" id="userName" placeholder="" required>
+                    <label id="labelUser" for="User">Usuário</label> 
+                </div>
+
+                <div class="label-float">
+                    <input type="password" id="passSenha" placeholder="" required>
+                    <label id="labelPassSenha" for="Senha">Senha</label> 
+                </div>
+                <!-- botão cadastrar -->
+                <div class="justify-center">
+                    <button onclick ="entrar()">Entrar</button>
+                </div>
+                <!-- fim formulario para digitar o usaário de senha para login -->
+                <div class="justify-center">
+                    <hr>
+                </div>
+                <!-- Link para cadastro de usuário -->
+                <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+            </div>           
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

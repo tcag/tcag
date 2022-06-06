@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de usuário</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style-cadastro-login.css">
+    </head>
+    <!-- Tela de cadastro -->
+    <body>
+        <div class="container">
+            <!-- criamos uma class card para criar a tela de cadastro a mesma usada para login -->
+            <div class="card">
+                <h1>Faça seu cadastro</h1>
+                <!-- inicia formulario para digitar o nome,usuário,senha e repitir senha para cadastro -->
+                <div id="msgError"></div>
+                <div id="msgSuccess"></div>
+
+                <div class="label-float">
+                    <input type="text" id="nome" placeholder="" required>
+                    <label id="labelNome" for="nome">Nome</label> 
+                </div>
+
+                <div class="label-float">
+                    <input type="text" id="usuario" placeholder="" required>
+                    <label id="labelUsuario" for="usuario">Usuário</label> 
+                </div>
+
+                <div class="label-float">
+                    <input type="password" id="senha" placeholder="" required>
+                    <label id="labelSenha" for="senha">Senha</label> 
+                </div>
+                <div class="label-float">
+                    <input type="password" id="repetirtenha" placeholder="" required>
+                    <label id="labelRepitirsenha" for="repetirSenha">Repetir senha</label> 
+                </div>
+
+                <div class="justify-center" id="button">
+                    <button onclick="cadastrar()">Cadastrar</button>
+                </div>
+                <!-- fim formulario para digitar o nome,usuário,senha e repitir senha para cadastro -->
+            </div>
+            <!-- Link para voltar a tela de login -->
+            <div id="logoff">
+                <a href=index.html>
+                    <i class="btn-floating btn-large">Exit</i>
+                </a>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
