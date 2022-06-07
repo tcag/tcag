@@ -1,9 +1,8 @@
 ## Olá eu sou o Tiago Santos,sou iniciante na área de programação e tecnologia!
 <div align="center" style display="flex">
   <a href="https://github.com/tcag">
-  <a href="https://github.com/tcag">
-  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=tcag&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tcag&layout=compact&langs_count=7&theme=dracula"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tcag&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tcag&layout=compact&langs_count=7&theme=dracula"/>
 </div>
   
 <div align="center"><br>
